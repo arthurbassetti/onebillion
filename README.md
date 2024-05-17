@@ -4,7 +4,7 @@
 
 O objetivo deste projeto é demonstrar como processar eficientemente um arquivo de dados massivo contendo 1 bilhão de linhas (~14GB), especificamente para calcular estatísticas (Incluindo agregação e ordenação que são operações pesadas) utilizando Python. 
 
-Utilizei tambem uma amostra de apenas 10 milhões de linhas para comparar a eficácia dos méstodos com uma base de dados maior e uma menor.
+Utilizei tambem uma amostra de apenas 10 milhões de linhas para comparar a eficácia dos métodos com uma base de dados maior e uma menor.
 
 Este desafio foi inspirado no [The One Billion Row Challenge](https://github.com/gunnarmorling/1brc), originalmente proposto para Java.
 

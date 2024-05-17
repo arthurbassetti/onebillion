@@ -1,4 +1,4 @@
-# 10 Milhões de Linhas: Desafio de Processamento de Dados com Python
+# 01 Bilhão de Linhas: Desafio de Processamento de Dados com Python
 
 ## Introdução
 

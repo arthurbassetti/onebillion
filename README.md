@@ -64,7 +64,7 @@ Para executar os scripts deste projeto, você precisará das seguintes bibliotec
 
 ## Resultados
 
-Os testes foram realizados em um laptop equipado com Windows 11, um processador i7 da 11ª Geração e 16GB de RAM. As implementações utilizaram abordagens puramente Python, Pandas, Dask, Polars e DuckDB. Os resultados de tempo de execução para processar o arquivo de 10 milhões de linhas são apresentados abaixo:
+Os testes foram realizados em um laptop equipado com Windows 11, um processador i7 da 11ª Geração e 16GB de RAM. As implementações utilizaram abordagens puramente Python, Pandas, Dask, Polars e DuckDB. Os resultados de tempo de execução para processar as amostras são apresentados abaixo:
 
 ### Processando 1 Bilhão de linhas
 | Implementação | Tempo |

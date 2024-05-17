@@ -4,7 +4,7 @@
 
 O objetivo deste projeto é demonstrar como processar eficientemente um arquivo de dados massivo contendo 1 bilhão de linhas (~14GB), especificamente para calcular estatísticas (Incluindo agregação e ordenação que são operações pesadas) utilizando Python. 
 
-Porém para facilitar a execução do desafio usaremos uma amostra de apenas 10 milhões de linhas.
+Utilizei tambem uma amostra de apenas 10 milhões de linhas para comparar a eficácia dos méstodos com uma base de dados maior e uma menor.
 
 Este desafio foi inspirado no [The One Billion Row Challenge](https://github.com/gunnarmorling/1brc), originalmente proposto para Java.
 
@@ -91,7 +91,7 @@ Este desafio destacou claramente a eficácia de diversas bibliotecas Python na m
 
 Esses resultados enfatizam a importância de selecionar a ferramenta adequada para análise de dados em larga escala, demonstrando que Python, com as bibliotecas certas, é uma escolha poderosa para enfrentar desafios de big data.
 
-O Duckdb venceu nos dois processamento de dados, o 1 Bilhão de linhas e o de 10 Milhões de linhas, realmente é o melhor.
+O Duckdb venceu nos dois processamento de dados, no 1 Bilhão de linhas e na amostra de 10 Milhões de linhas, realmente é o melhor.
 
 ## Como Executar
 

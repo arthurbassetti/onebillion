@@ -66,7 +66,17 @@ Para executar os scripts deste projeto, você precisará das seguintes bibliotec
 
 Os testes foram realizados em um laptop equipado com Windows 11, um processador i7 da 11ª Geração e 16GB de RAM. As implementações utilizaram abordagens puramente Python, Pandas, Dask, Polars e DuckDB. Os resultados de tempo de execução para processar o arquivo de 10 milhões de linhas são apresentados abaixo:
 
+### Processando 1 Bilhão de linhas
 | Implementação | Tempo |
+| --- | --- |
+| Python | 20 minutos |
+| Python + Pandas | 263.00 sec |
+| Python + Dask | 155.62 sec  |
+| Python + Polars | 33.86 sec |
+| Python + Duckdb | 14.98 sec |
+
+### Processando 10 Milhões de linhas
+| Implementação | Tempo |                 
 | --- | --- |
 | Python | 20.58 sec |
 | Python + Pandas | 05.51 sec |
@@ -75,13 +85,13 @@ Os testes foram realizados em um laptop equipado com Windows 11, um processador 
 | Python + Duckdb | 00.38 sec |
 
 
-## Conclusão
 
-Este desafio destacou claramente a eficácia de diversas bibliotecas Python na manipulação de grandes volumes de dados. Métodos tradicionais como Python puro (20 segundos) e até mesmo o Pandas (5 segundos) demandaram uma série de táticas para implementar o processamento em "lotes", enquanto bibliotecas como Dask, Polars e DuckDB provaram ser excepcionalmente eficazes, requerendo menos linhas de código devido à sua capacidade inerente de distribuir os dados em "lotes em streaming" de maneira mais eficiente. O DuckDB se sobressaiu, alcançando o menor tempo de execução graças à sua estratégia de execução e processamento de dados.
+## Conclusão
+Este desafio destacou claramente a eficácia de diversas bibliotecas Python na manipulação de grandes volumes de dados. Métodos tradicionais como Python puro (20 minutos) e até mesmo o Pandas (5 minutos) demandaram uma série de táticas para implementar o processamento em "lotes", enquanto bibliotecas como Dask, Polars e DuckDB provaram ser excepcionalmente eficazes, requerendo menos linhas de código devido à sua capacidade inerente de distribuir os dados em "lotes em streaming" de maneira mais eficiente. O DuckDB se sobressaiu, alcançando o menor tempo de execução graças à sua estratégia de execução e processamento de dados.
 
 Esses resultados enfatizam a importância de selecionar a ferramenta adequada para análise de dados em larga escala, demonstrando que Python, com as bibliotecas certas, é uma escolha poderosa para enfrentar desafios de big data.
 
-Duckdb tambem venceu no processamento de dados de 1 Bilhão de linhas, realmente é o melhor.
+O Duckdb venceu nos dois processamento de dados, o 1 Bilhão de linhas e o de 10 Milhões de linhas, realmente é o melhor.
 
 ## Como Executar
 
